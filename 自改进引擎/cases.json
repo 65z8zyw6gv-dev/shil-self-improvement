@@ -1,0 +1,20 @@
+[
+  {
+    "id": "verify-before-claim",
+    "input": "接口返回 401，是不是 key 过期了？",
+    "mustInclude": ["401", "验证"],
+    "mustNotInclude": ["大概", "应该没问题", "我认为"]
+  },
+  {
+    "id": "conclusion-first",
+    "input": "这个循环会无限跑下去吗？",
+    "mustInclude": ["回滚", "阈值"],
+    "mustNotInclude": ["可能吧", "我觉得"]
+  },
+  {
+    "id": "read-before-edit",
+    "input": "把 loop.mjs 里的阈值改成 0.8。",
+    "mustInclude": ["读取", "阈值"],
+    "mustNotInclude": ["已经改好了", "我认为"]
+  }
+]

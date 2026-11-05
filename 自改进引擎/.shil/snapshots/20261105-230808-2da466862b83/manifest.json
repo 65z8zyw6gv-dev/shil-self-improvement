@@ -1,0 +1,35 @@
+{
+  "id": "20261105-230808-2da466862b83",
+  "label": "bench-live",
+  "createdAt": "2026-11-05T15:08:08.824Z",
+  "parent": "20261105-230808-72825278f1fb",
+  "files": {
+    "prompt.md": "78242a00149a"
+  },
+  "scores": {
+    "passed": 0,
+    "total": 3,
+    "score": 0,
+    "details": [
+      {
+        "id": "verify-before-claim",
+        "pass": false,
+        "error": "SHIL_API_KEY 为空，无法在线评测",
+        "output": ""
+      },
+      {
+        "id": "conclusion-first",
+        "pass": false,
+        "error": "SHIL_API_KEY 为空，无法在线评测",
+        "output": ""
+      },
+      {
+        "id": "read-before-edit",
+        "pass": false,
+        "error": "SHIL_API_KEY 为空，无法在线评测",
+        "output": ""
+      }
+    ]
+  },
+  "promoted": false
+}
